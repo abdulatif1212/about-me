@@ -1,0 +1,150 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.class {
+    width: 900px;
+    width: 100%;
+    height: 390px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    .home {
+        text-decoration: none;
+
+
+        &.home2 {
+            color: var(--Black, #070707);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.section1 {
+    .container {
+        .class {
+            width: 100%;
+        }
+    }
+
+    .diw {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1 {
+        color: var(--Black, #070707);
+        font-size: 47.339px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    p {
+        margin-top: 100px;
+        color: var(--Black, #070707);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .text {
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transform: rotate(-90deg);
+
+        span {
+            color: #828282;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.section50 {
+    .container {
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        img {
+            margin-left: 275px;
+            padding-top: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+            // margin: 0 auto;
+            margin-left: 379px;
+
+            span {
+                margin-left: 23px;
+            }
+        }
+    }
+}
+
+.section51 {
+
+    .spant {
+        margin-left: 380px;
+    }
+
+    .span {
+        margin-left: 35px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        margin-left: 379px;
+    }
+}
+
+// .kk{
+//     background-color: yellow;
+// }
+.photo {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+
+    img {
+        width: 100px;
+        height: 100px;
+        gap: 50px;
+    }
+}
